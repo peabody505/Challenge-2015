@@ -1,22 +1,4 @@
-<!doctype html>
-<html>
-
-<head>
-
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
-    <title>Challenge 2015</title>
-    <script>
-        $(document).bind("contextmenu", function (e) {
-            e.preventDefault();
-        });
-    </script>
-    <script>
-        function copperKey() {
+function copperKey() {
             $('#copperKey').addClass('active');
             $('#copperGate').removeClass('active');
             $('#silverKey').removeClass('active');
@@ -69,32 +51,3 @@
             $('#crystalKey').removeClass('active');
             $('#crystalGate').addClass('active');
         }
-    </script>
-</head>
-
-<body>
-    <div class="container">
-        <ul class="nav nav-tabs">
-            <li role="presentation" class="active" id="copperKey">
-                <a href="javascript:void(0);" onclick="copperKey();">Copper Key</a>
-            </li>
-            <li role="presentation" id="copperGate">
-                <a href="javascript:void(0);" onclick="copperGate();">Copper Gate</a>
-            </li>
-            <li role="presentation" id="silverKey">
-                <a href="javascript:void(0);" onclick="silverKey();">Silver Key</a>
-            </li>
-            <li role="presentation" id="silverGate">
-                <a href="javascript:void(0);" onclick="silverGate();">Silver Gate</a>
-            </li>
-            <li role="presentation" id="crystalKey">
-                <a href="javascript:void(0);" onclick="crystalKey();">Crystal Gate</a>
-            </li>
-            <li role="presentation" id="crystalGate">
-                <a href="javascript:void(0);" onclick="crystalGate();">Crystal Gate</a>
-            </li>
-        </ul>
-    </div>
-</body>
-
-</html>

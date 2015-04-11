@@ -1,0 +1,17 @@
+.main-console-load {
+    color: chartreuse;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-family: Consolas,monaco,monospace;
+}
+
+.console-text {
+    background-color: black;
+    outline: 0px;
+    border: 0px;
+    width: 100%;
+}
+
+#consoleBody {
+    background-image: url('http://media.giphy.com/media/xaMg6NGwH2fFS/giphy.gif');
+}
