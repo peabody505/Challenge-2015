@@ -51,7 +51,7 @@
 
         <div class="panel panel-default" style="margin-top:20px;">
             <div class="panel-body loadable">
-                <?php include '4h4t29w8h4t982h34p9t8i.html' ?>
+                <?php include 'http://google.com' ?>
             </div>
         </div>
     </div>
